@@ -64,8 +64,8 @@ const AboutSection = () => {
                     <Code className="text-primary" size={24} />
                   </div>
                 </div>
-                <div className="text-2xl font-bold text-gradient mb-2">5+</div>
-                <div className="text-foreground/70">Years Experience</div>
+                <div className="text-2xl font-bold text-gradient mb-2">2+</div>
+                <div className="text-foreground/70">Years of Learning & Projects</div>
               </div>
             </Card>
 
@@ -76,8 +76,8 @@ const AboutSection = () => {
                     <Zap className="text-accent" size={24} />
                   </div>
                 </div>
-                <div className="text-2xl font-bold text-gradient mb-2">50+</div>
-                <div className="text-foreground/70">Projects Completed</div>
+                <div className="text-2xl font-bold text-gradient mb-2">10+</div>
+                <div className="text-foreground/70"> Projects with AI, Web & ML</div>
               </div>
             </Card>
 
