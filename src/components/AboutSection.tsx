@@ -119,49 +119,6 @@ const AboutSection = () => {
           </div>
         </Card>
 
-        {/* Team Section */}
-        <Card className="card-glow mt-12">
-          <div className="p-8">
-            <h3 className="text-2xl font-bold text-center mb-8">
-              <span className="text-gradient">Team CodeCrafters</span>
-            </h3>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-lg font-bold text-background">HK</span>
-                </div>
-                <h4 className="font-bold mb-1">Hari Kethan Bola</h4>
-                <p className="text-sm text-foreground/70">Frontend & Architecture</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-gradient-to-r from-accent to-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-lg font-bold text-background">CM</span>
-                </div>
-                <h4 className="font-bold mb-1">Charan Mancha</h4>
-                <p className="text-sm text-foreground/70">Backend + Resume Parser</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-lg font-bold text-background">JC</span>
-                </div>
-                <h4 className="font-bold mb-1">Jagadeesh Chalamcharla</h4>
-                <p className="text-sm text-foreground/70">AI/NLP Integration</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-gradient-to-r from-accent to-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-lg font-bold text-background">LR</span>
-                </div>
-                <h4 className="font-bold mb-1">Likhitha Ramya Mandala</h4>
-                <p className="text-sm text-foreground/70">UX Design + Testing</p>
-              </div>
-            </div>
-          </div>
-        </Card>
-
         {/* Social Links */}
         <div className="flex justify-center space-x-6 mt-12">
           <Button variant="outline" size="lg" className="btn-ghost" asChild>
@@ -191,3 +148,4 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
